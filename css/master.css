@@ -1,0 +1,71 @@
+
+/*
+	Master color: #009688
+*/
+
+#top_nav{
+	background-color: #009688;
+	min-height: 50px;
+}
+
+.top_bar{
+	float: left;
+	line-height: 50px;
+}
+
+.top_bar .flotrgt{
+	float: right;
+}
+
+.top_bar h6{
+	display: inline-block;
+	color: #ffffff;
+	font-size: 13px;
+}
+
+.top_bar h6:last-child::before{
+	border-left: 1px solid rgba(255,255,255,0.36);
+  content:"";
+  padding-left: 8px;
+  margin-left: 8px;
+  height: 9px;
+  display: inline-block;
+}
+
+.social_links{
+	float: left;
+	margin-right: 15px;
+}
+.social_links a{
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.social_links a i{
+
+}
+
+.top_bar .social_links i{
+  color: #ffffff;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -ms-transition: all 0.125s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.social_links a:hover i.ion-social-facebook-outline{
+	background: #3b5996 !important;
+}
+.social_links a:hover i.ion-social-twitter-outline{
+	background: #00acee !important;
+}
+.social_links a:hover i.ion-social-googleplus-outline{
+	background: #c3391c !important;
+}
+.social_links a:hover i.ion-social-linkedin-outline{
+	background: #0073b2 !important;
+}
+.social_links a:hover i.ion-social-rss-outline{
+	background: #f29a1d !important;
+}
