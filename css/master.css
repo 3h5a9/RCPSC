@@ -1,7 +1,10 @@
-
 /*
 	Master color: #009688
 */
+
+.btn{
+	border-radius: 0px;
+}
 
 #top_nav{
 	background-color: #009688;
@@ -13,7 +16,7 @@
 	line-height: 50px;
 }
 
-.top_bar .flotrgt{
+.top_bar.flotrgt{
 	float: right;
 }
 
@@ -37,12 +40,15 @@
 	margin-right: 15px;
 }
 .social_links a{
-	font-size: 20px;
-	color: #ffffff;
+  font-size: 16px;
+  color: #ffffff;
+  display: inline-block;
+  width: 35px;
+  text-align: center;
 }
 
 .social_links a i{
-
+	display: block;
 }
 
 .top_bar .social_links i{
@@ -69,3 +75,57 @@
 .social_links a:hover i.ion-social-rss-outline{
 	background: #f29a1d !important;
 }
+
+
+#main_header{
+	background-color: #444444; 
+}
+
+nav.navbar.navbar-default{
+	margin: 0px;
+  border: 0px;
+  border-radius: 0px;
+}
+
+
+
+/*Media Query*/
+
+@media (max-width: 767px){
+  .social_links{
+  	text-align: center;
+  	width: 100%;
+  }	
+}
+
+@media (max-width: 767px){
+  .top_bar h6{
+  	text-align: center;
+  	width: 100%;
+  }	
+}
+
+@media (min-width: 1200px) {
+  .collapse{
+  	padding: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .logo{
+  	text-align: center;
+  }
+}
+@media (max-width: 767px){
+  .logo{
+  	text-align: center;
+  }	
+}
+
+@media (max-width: 767px){
+	.top_bar.flotrgt{
+		text-align: center;
+		width: 100%;
+	}
+}
+
